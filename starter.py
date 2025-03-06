@@ -17,5 +17,5 @@ class CreateCircle(Scene):
 # To run the script, use the following command: manim -pql main.py CreateCircle
 # -p: preview the animation
 # -q: don't show the progress bar
-# -l: show the code in the animation
+# -l: low quality (-h for high quality, will take more time to render)
 # The animation will look like garbage, so, change settings in the manim.cfg file
