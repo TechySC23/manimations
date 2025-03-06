@@ -1,6 +1,8 @@
-from manim import *
-class DefaultTemplate(Scene):
-    def construct(self):
+from manim import *  # import the Manim Library
+
+
+class DefaultTemplate(Scene):  # Define class DefaultTemplate and make the scene
+    def construct(self) -> None:  # Define the construct method
         circle = Circle()  # create a circle
         circle.set_fill(PINK, opacity=0.5)  # set color and transparency
 

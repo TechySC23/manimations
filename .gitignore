@@ -1,3 +1,5 @@
 .python-version
 pyproject.toml
 uv.lock
+media/
+__pycache__/
